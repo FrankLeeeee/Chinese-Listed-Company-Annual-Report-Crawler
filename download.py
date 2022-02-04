@@ -16,6 +16,7 @@ def main():
             for company_folder in os.listdir(industry_folder_path):
                 company_folder_path = os.path.join(industry_folder_path, company_folder)
                 if os.path.isdir(company_folder_path):
+                    print(f'download PDFs into {company_folder_path}')
                     download_link_path = os.path.join(company_folder_path, 'download_links.txt')
                     with open(download_link_path, 'r') as f:
                         for line in f:
