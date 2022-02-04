@@ -1,0 +1,8 @@
+url: http://www.szse.cn/disclosure/listed/notice/index.html
+report_ordinal: 0
+start_year: 2016
+end_year: 2021
+excel_file: './industry.xlsx'
+download_url_prefix: 'http://disc.static.szse.cn/download'
+output_path: './download'
+unwanted_keywords: ['半年', '摘要', '2015']
